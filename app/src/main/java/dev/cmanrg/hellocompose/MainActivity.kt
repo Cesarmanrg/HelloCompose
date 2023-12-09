@@ -109,7 +109,6 @@ private fun Greetings(
     LazyColumn(modifier = modifier.padding(vertical = 4.dp)) {
         items(items = names) { name ->
             Greeting(name = name)
-
         }
     }
 }
